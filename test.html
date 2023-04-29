@@ -1,0 +1,30 @@
+<div class="flex flex-row justify-between items-center shadow-md p-6 z-10">   
+    <!-- logo -->
+    <div class="font-larken text-[21px]">Yinka Adesesan</div>
+    <!-- menu items -->
+    <div class="hidden md:flex gap-6">
+        <a class="md:text-sm lg:text-md  capitalize" href="#">about</a>
+        <a class="md:text-sm lg:text-md  capitalize" href="#">writing</a>
+        <a class="md:text-sm lg:text-md  capitalize" href="#">contact</a>
+    </div>
+    <!-- button -->
+    <a class="md:block hidden" href="#"><button class="text-md capitalize py-3 px-6 bg-blue-700 text-white rounded-full">Let's work</button></a>
+    <!-- Add hamburger menu code here -->
+    <div id="menu-btn" class="md:hidden" x-on:click="open = !open">
+        <a href="#">
+            <svg class="hover:bg-grey-200 border-2 rounded-md border-grey-600" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.88889 14.4443H31.1111M8.88889 19.9999H31.1111M8.88889 25.5554H31.1111" stroke="#5F6B7A" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>   
+        </a>    
+    </div>
+</div>
+
+<!-- mobile menu -->
+<div class="md:hidden hidden" id="menu" x-show="open">
+    <div class="absolute flex flex-col py-8 bg-grey-200 w-full m-auto gap-y-6 transition-all duration-500">
+        <a class="text-center text-md" href="#">about</a>
+        <a class="text-center text-md" href="#">writing</a>
+        <a class="text-center text-md" href="#">contact</a>
+        <a class="md:block text-center" href="#"><button class="text-md capitalize py-3 px-6 bg-blue-700 text-white rounded-full">Let's work</button></a>
+    </div>
+</div>

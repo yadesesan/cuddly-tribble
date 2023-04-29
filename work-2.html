@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yinka Adesesan - Design Strategy for digital products and new ventures</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body class='bg-white font-satoshi selection:bg-orange-600 selection:text-white'>
+    <nav class="mx-auto relative shadow-md">
+        <div class="p-6 flex items-center justify-between mx-auto">
+            <div class="font-larken text-[21px]">Yinka Adesesan</div>
+            <div class="hidden space-x-6 md:flex">
+                <a class="md:text-sm lg:text-md capitalize hover:underline hover:underline-offset-8 hover:decoration-orange-600 hover:decoration-4" href="#">about</a>
+                <a class="md:text-sm lg:text-md capitalize hover:underline hover:underline-offset-8 hover:decoration-orange-600 hover:decoration-4" href="#">writing</a>
+                <a class="md:text-sm lg:text-md capitalize hover:underline hover:underline-offset-8 hover:decoration-orange-600 hover:decoration-4" href="#">contact</a>
+            </div>
+            <a class="md:block hidden" href="#"><button class="text-md capitalize py-3 px-6 bg-blue-700 text-white rounded-full">Let's work</button></a>
+            <!-- hamburger icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <div id="menu" class="hidden">
+            <div class="absolute flex flex-col py-8 bg-grey-200 w-full m-auto gap-y-6 transition-all duration-500">
+                <a class="text-center text-md capitalize" href="#">about</a>
+                <a class="text-center text-md capitalize" href="#">writing</a>
+                <a class="text-center text-md capitalize" href="#">contact</a>
+                <a class="md:block text-center" href="#"><button class="text-md capitalize py-3 px-6 bg-blue-700 text-white rounded-full">Let's work</button></a>
+            </div>
+        </div>
+        
+    </nav>
+
+    <section class="lg:py-24 py-24">
+        <div class="container md:max-w-none lg:container px-6 lg:px-20 mx-auto flex flex-col">
+            <div>
+                <h2 class="font-larken text-lg lg:text-2xl">Let's work</h2>
+                <h3 class="uppercase font-medium tracking-widest text-grey-600 text-xs">Ways we can work together</h3>
+            </div>
+            <div class="py-36 flex flex-col gap-y-16 md:flex-row md:gap-20 xl:gap-32">
+                <div class="flex flex-col gap-4">
+                    <h4 class="text-md font-medium">Have a role that you think might be a good fit for me?</h4>
+                    <p class="text-md">I'm currently open to opportunities in venture building and startup acceleration</p>
+                    <a class="text-md underline underline-offset-4 decoration-orange-700 decoration-2 hover:decoration-4" href="#">Get in touch</a>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h4 class="text-md font-medium">Want to launch a digital product or startup venture?</h4>
+                    <p class="text-md">Check out Mindcapital's Startup programs to go from idea to action</p>
+                    <a class="text-md underline underline-offset-4 decoration-orange-700 decoration-2 hover:decoration-4" href="#">Visit Mindcapital</a>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h4 class="text-md font-medium">Want to pick my brain on any topic for 30 mins?</h4>
+                    <p class="text-md">Book a call to talk about your business, your brand, or your cat. Your call.</p>
+                    <a class="text-md underline underline-offset-4 decoration-orange-700 decoration-2 hover:decoration-4 inline-flex" href="#">Book a call</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="lg:py-28 py-24 bg-[#F8F9FA]">
+        <div class="container md:max-w-none lg:container px-6 lg:px-20 mx-auto flex flex-col space-y-16 md:space-y-16">
+            <div class="flex flex-row space-x-2">
+                <img src="img/wave.svg" alt="">
+                <h3 class="font-larken lg:text-xl text-lg">Say hi</h3>
+            </div>
+            
+            <div class="flex flex-row gap-8 md:gap-40 flex-wrap md:flex-nowrap">
+                <p class=" text-sm lg:text-md md:w-1/2 md:pr-24 text-blue-700">Get in touch if you are interested in working together, collaborating on a project, or if you just want to have a conversation.</p>
+                <address class="flex flex-row md:w-1/2 gap-8 mb-14">
+                    <div class="flex flex-col space-y-2">
+                        <p class="not-italic">email</p>
+                        <p class="not-italic">linkedin</p>
+                        <p class="not-italic">twitter</p>
+                    </div>
+                    <div class="flex flex-col space-y-2">
+                        <a href="#">
+                            <p class="not-italic underline underline-offset-4 text-grey-600 hover:decoration-orange-700 transition-all">yadesesan@gmail.com</p>
+                        </a>
+                        <a href="#">
+                            <p class="not-italic underline underline-offset-4 text-grey-600 hover:decoration-orange-700 transition-all">linkedin.com/in/yadesesan</p>
+                        </a>
+                        <a href="#">
+                            <p class="not-italic underline underline-offset-4 text-grey-600 hover:decoration-orange-700 transition-all">@yadesesan</p>
+                        </a>
+                    </div>
+                </address>
+            </div>
+            <!-- Right container -->
+            
+            <p>&copy; Yinka Adesesan 2022</p>
+        </div>
+
+    </footer>
+    <script>
+        
+        const btn = document.getElementById('menu-btn')
+        const nav = document.getElementById('menu')
+
+        btn.addEventListener('click', () => {
+            btn.classList.toggle('open')
+            nav.classList.toggle('hidden')
+        })
+        
+        
+
+    </script>
+</body>
+</html> 
